@@ -7,8 +7,8 @@ create table item
 (
     i_item_sk                 int,
     i_item_id                 string,
-    i_rec_start_date          string,
-    i_rec_end_date            string,
+    i_rec_start_date          date,
+    i_rec_end_date            date,
     i_item_desc               string,
     i_current_price           float,
     i_wholesale_cost          float,

@@ -7,8 +7,8 @@ create external table store
 (
     s_store_sk                int,
     s_store_id                string,
-    s_rec_start_date          string,
-    s_rec_end_date            string,
+    s_rec_start_date          date,
+    s_rec_end_date            date,
     s_closed_date_sk          int,
     s_store_name              string,
     s_number_employees        int,

@@ -7,8 +7,8 @@ create external table web_site
 (
     web_site_sk           int,
     web_site_id           string,
-    web_rec_start_date    string,
-    web_rec_end_date      string,
+    web_rec_start_date    date,
+    web_rec_end_date      date,
     web_name              string,
     web_open_date_sk      int,
     web_close_date_sk     int,

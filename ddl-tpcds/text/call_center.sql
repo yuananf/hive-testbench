@@ -6,8 +6,8 @@ drop table if exists call_center;
 create external table call_center(
       cc_call_center_sk         int               
 ,     cc_call_center_id         string              
-,     cc_rec_start_date        string                         
-,     cc_rec_end_date          string                         
+,     cc_rec_start_date         date                         
+,     cc_rec_end_date           date                         
 ,     cc_closed_date_sk         int                       
 ,     cc_open_date_sk           int                       
 ,     cc_name                   string                   

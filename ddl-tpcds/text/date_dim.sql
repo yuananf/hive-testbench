@@ -7,7 +7,7 @@ create external table date_dim
 (
     d_date_sk                 int,
     d_date_id                 string,
-    d_date                    string,
+    d_date                    date,
     d_month_seq               int,
     d_week_seq                int,
     d_quarter_seq             int,
